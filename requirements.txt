@@ -1,11 +1,30 @@
-[packages]
-streamlit = "*"
-langchain-groq = "*"
-langchain-community = "*"
-pypdf = "*"
-sentence-transformers = "*"
+# Core
+python-dotenv>=1.0.0
+
+# Frontend
+streamlit>=1.32.0
+
+# LangChain / RAG
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.5
+
+# Embeddings & NLP
+sentence-transformers>=2.6.0
+transformers>=4.40.0
+torch>=2.1.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# Document Processing
+pypdf>=4.2.0
+
+# Utilities
+tqdm>=4.66.0
 
 python_version = "3.11"
+
 
 
 
